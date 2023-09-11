@@ -11,7 +11,6 @@ export function History() {
       <h1>Meu Histórico</h1>
 
       <HistoryList>
-        <pre>{JSON.stringify(cycles, null, 2)}</pre>
         <table>
           <thead>
             <tr>
